@@ -25,6 +25,8 @@ $(function () {
                toastr.error(error);
             else{
                 toastr.success("Success");
+                if (alert('Successfully Registered!')) {}
+				else window.location.reload();
             }
         });
 

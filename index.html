@@ -38,15 +38,19 @@
 			function off() {
 				document.getElementById("overlay_form").style.display = "none";
 			} 
+			function success() {
+				//if (alert('Successfully Registered!')) {}
+				//else window.location.reload();
+			}
 	</script>
 		<div class="overlay_form" id="overlay_form" >
 
-			<button type="button" class="close" onclick="off()">
-					<span style="font-size:70px; color:white" >×</span>
-				  </button>
+			
 
 		<div class="formbox">
-			
+				<button type="button" class="close" onclick="off()" style=" ">
+						<span style="font-size:40px; color:black" >×</span>
+					  </button>
 			
 			<span style="font-weight:bold">Register for the events, here !</span>
 			
@@ -207,7 +211,7 @@
 						</div>
 							<!-- Register button -->
 							
-									<button type="button" id="btn_reg" class="btn btn-info my-4 btn-block reg" >Register</button>
+									<button type="button" id="btn_reg" class="btn btn-info my-4 btn-block reg" onclick="success()" >Register</button>
 							
 	
 				</form>
