@@ -26,10 +26,25 @@
 	
 	<!-- Custom styles -->	
 	<link href="css/style.css" rel="stylesheet">
+	
 
 </head>
 <body style="background-image: url(css/cogs-1.gif); font-family: 'Audiowide';">
-		<div class="overlay_form">
+	<script>
+			function on() {
+			document.getElementById("overlay_form").style.display = "block";
+			}
+	
+			function off() {
+				document.getElementById("overlay_form").style.display = "none";
+			} 
+	</script>
+		<div class="overlay_form" id="overlay_form" >
+
+			<button type="button" class="close" onclick="off()">
+					<span style="font-size:70px; color:white" >×</span>
+				  </button>
+
 		<div class="formbox">
 			
 			
@@ -200,8 +215,6 @@
 		</div>
 		
 	</div>
-		
-	</div>
 	<div class="container-fluid">
 		<div class="row">
 		<div class="col-lg-11" style="margin-left: 8vw">
@@ -235,7 +248,7 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 						<div style="text-align: center">
-							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white; " >Register</a>
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
 						</div>
 					  </div>
 
@@ -276,7 +289,9 @@
 					    
 					    <hr>
 					    <!-- Register -->
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -312,7 +327,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					   <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -349,7 +366,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					  <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -386,7 +405,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -423,7 +444,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					 <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -479,7 +502,9 @@
 					    
 					    <hr>
 					    <!-- Register -->
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -514,7 +539,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 					    <!-- Register -->
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					 <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -552,7 +579,9 @@
 					    
 					    <hr>
 					    <!-- Register -->
-					   <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					  <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -589,8 +618,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
-
+					  <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 					  </div>
 
 					</div>
@@ -626,7 +656,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -663,7 +695,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					   <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -707,7 +741,9 @@
 					    <hr>
 
 					    <!-- Register -->
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					   <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -751,7 +787,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					  <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -789,7 +827,9 @@
 					    
 					    <hr>
 					    <!-- Register -->
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					  <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -826,7 +866,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -863,7 +905,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					   <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					 <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -900,7 +944,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					   <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					  <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -940,7 +986,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					   <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					 <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -989,8 +1037,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
-
+					   <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 					  </div>
 
 					</div>
@@ -1027,8 +1076,9 @@
 					    
 					    <hr>
 					    <!-- Register -->
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
-
+					   <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 					  </div>
 
 					</div>
@@ -1064,7 +1114,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -1101,7 +1153,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					    <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					    <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 
@@ -1138,7 +1192,9 @@
 					    <h5>Schedule: TBA</h5>
 					    <hr>
 
-					   <a href="#" class="btn" style="background-color: rgba(0, 0, 0, 1); ;color: white;border: 3px solid white" >Register</a>
+					   <div style="text-align: center">
+							<a href="#" class="btn"  style="background-color: rgba(0, 0, 0, 1); ;color: white;" onclick="on()" >Register</a>
+						</div>
 
 					  </div>
 

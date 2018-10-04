@@ -45,9 +45,9 @@
 	position: absolute;
 	margin-left: 60%
 }
-.overlay_form
+#overlay_form
 {
-	display:block;
+	display:none;
 	position: fixed;
 	height:100%;
 	width:100%;
