@@ -7,14 +7,8 @@
     -moz-box-shadow: 0 0 5px 2px black;
     box-shadow: 0 0 5px 2px black;
 }
-.card{
-	opacity: 0.9;
-}
-.card-img-top{
-	opacity: 1;
-}
 #specials{
-	background-color: rgb(0, 0, 0, 1);
+	background-color: rgb(13, 13, 13);
 }
 #electrify{
 	background-color: rgb(13, 13, 13);
@@ -41,5 +35,34 @@
 	background-color: rgb(13, 13, 13);
 }
 .btn:hover {
+	font-size: 20px;
+}
+.reg:hover{
+	font-size: 13px;
+}
+.reg{
+	width: 20%;
+	position: absolute;
+	margin-left: 60%
+}
+.overlay_form
+{
+	display:block;
+	position: fixed;
+	height:100%;
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+	text-align:center;
+}
+
+.formbox
+{	display:block;
+	position: relative;
+	margin:auto;
+	margin-top:5vw;
+	width:60vw;
+	background-color:white;
+	font-family:fontawesome;
 	font-size: 20px;
 }
