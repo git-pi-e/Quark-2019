@@ -48,7 +48,7 @@
 #overlay_form
 {
 	display:none;
-	position: fixed;
+	position: absolute;
 	height:100%;
 	width:100%;
 	background-color: rgba(0,0,0,0.5);
@@ -70,4 +70,37 @@ footer{
 	background-color: black;
 	color: white;
 	padding: 10px;
+}
+@media (max-width: 1000px) {
+  .reg {
+    font-size: 10px;
+   	padding: 5%;
+  }
+}
+@media (max-width: 825px) {
+  .reg {
+    font-size: 7px;
+   	padding: 3%;
+  }
+}
+@media (max-width: 400px) {
+  .reg {
+    font-size: 6px;
+   	padding: 2%;
+  }
+}
+@media (max-width: 1260px) {
+  #overlay_form {
+    height:900px;
+  }
+}
+@media (max-width: 991px) {
+  #overlay_form {
+    height: 1300px;
+  }
+}
+@media (max-width: 330px) {
+  #overlay_form {
+    height: 1500px;
+  }
 }
