@@ -45,6 +45,12 @@
 	position: absolute;
 	margin-left: 60%
 }
+
+.btn-register
+{
+	background-color: rgba(0, 0, 0, 1); ;color: white;
+}
+
 #overlay_form
 {
 	display:none;
