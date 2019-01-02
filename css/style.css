@@ -1,282 +1,249 @@
-
-body{
-	
-	margin:0;
-	padding:0;
-	/*background-color: rgb(0,0,102);*/
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+a{
+  text-decoration: none;
+}
+.ary a{
+  color: black;
+}
+.dates{
+  text-align: center;
+  color: white;
+  font-family: 'Audiowide';
+}
+#intro {
+    background: url("../img/quark-min.JPG")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.view10 {
+    background: url('https://mdbootstrap.com/img/Photos/Others/images/89.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.divider{
-	transition: all 0.5s;
+.top-nav-collapse {
+    background-color: #24355C;
 }
 
-
-#main{
-	background-color: /*rgb(0,0,102)*//*rgb(204, 41, 0)*//*rgb(221, 255, 153)*//*rgb(255, 191, 128)*/black;
+@media (max-width: 750px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355C;
+  }
 }
-.heading{
-	color: white;
-	font-family: Audiowide;
-	display: block;
-	text-align: center;
-	font-size: 60px;
-	padding-top: 2vw;
-	padding-bottom: 2vw;
-	z-index: 1;
-	right:0;
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355C;
+  }
 }
-.headBackground{
-	z-index: 0;
-	position: absolute;
-	width:100%;
-	height: 100%;
-	background-color:/*rgb(255, 153, 102)*//*rgb(255, 153, 51)*//*rgb(255, 179, 102)*/black;
-	/*background-color: #99ceff;*/ 
-	right:0;
-	margin-left: -1vw;
+.img {
+    position: relative;
+    float: left;
+    width:  425px;
+    height: 425px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
-
-#stars {
-
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	right:0;
-	z-index: -2;
+.empty10{
+	height: 425px;
 }
-
-#sidenavCog{
-	position: absolute;
-	top: 2vw;
-	left: 2vw;
-	font-size: 2vw;
-	text-decoration: none;
-	-webkit-transition: all 0.5s;
-	color: white;
+.qriosity {
+    background: url("../img/image1.jpeg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 900px;
 }
-#sidenavCog:hover{
-	color: #7c7373fd;
+#register-events{
+  display: block;
+  position: absolute;
+  margin-top: 15%;
+  font-family: 'Audiowide';
+  font-size: 25px; 
+  border: 3px solid orange;
+  padding: 17px;
 }
 
-.list{
-	margin:0;
-}
-
-.list li {
-	padding-left: 15%;
-	padding-top: 0.8%;
-	padding-bottom: 0.8%;
-
-}
- /* The side navigation menu */
- .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(0, 0, 51); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The side navigation menu links */
-.sidenav a {
-	text-decoration: none;
-    font-size: 20px;
-    /*color: #818181;*/
-    color:rgb(255, 179, 102) ;
-    display: inline;
-    transition: 0.3s;
-}
-
-li{
-	left:0;
-	list-style-type: none;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: gray;
-    text-decoration: none;
-}
-
-.homebtn{
-	position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-/* Main is the entire page content which needs to be shifted */
-#main {
-    transition: margin-left .5s;
-   
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-} 
-
-
-.event-blocks{
-	color:white;
-	opacity: 0.5;
-	margin-top: 100px;
+#register-workshops{
+  width: 300px;
+  height: 115px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 0%;
+  font-family: 'Audiowide';
+  font-size: 25px; 
+  border: 3px solid orange;
+  padding-top: 17px;
 }
 
 
-.blocks{
-	
-	/*opacity: 0.5;
-*/	width: 100%;
-	height: 200px;
-	border: 2px solid orange;
-	text-align : center;
-	font-size: 30px;
-	font-family: Audiowide;
-	background-size: cover;
-	border-radius: 20px;
-
-
-}
-.blocks:hover{
-	border: 4px solid red;
-}
-.block-title{
-	padding-top: 8%;
-	
+.bton, .bton:hover {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
 
-/*.no-padding{
-	padding: 0 !important;
-	margin: 0 !important;
-}*/
-.empty1{
-	height: 80px;
+/*Campus Ambassador Programme*/
+
+/* Required for full background image */
+.ben1{
+  
+  outline-style: solid; 
+  height: 270px; 
+  padding: 4%;
 }
-.empty2{
-	height: 40px;
+.ben2{
+  
+  outline-style: solid;
+  height: 270px; 
+  padding: 6%;
 }
-
-.dropdown-1{
-
-	
-	border: 2px solid white;
-	background: black;
-	color: white;
-	padding-left: 5px;
-	display: none;
-	margin-top: 20px;
-	width:100%;
-	z-index :2;
-	border-radius: 20px;
-	border-top-left-radius: 0;
-
-}
-.dropdown-2{
-
-	border: 2px solid white;
-	background: red;
-	color: white;
-	padding-left: 5px;
-	display: none;
-	margin-top: 20px;
-	opacity: 0.6;
-	width:100%;
-	z-index :2;
-	transition: 0.5s;
-	border-radius: 20px;
-	border-top-left-radius: 0;
-
-}
-.dropdown-3{
-
-	border: 2px solid white;
-	background: orange;
-	color: white;
-	padding-left: 5px;
-	display: none;
-	margin-top: 20px;
-	opacity: 0.6;
-	width:100%;
-	z-index :2;
-	transition: 0.5s;
-	border-radius: 20px;
-	border-top-left-radius: 0;
-
-}
-.dropdown-4{
-
-	border: 2px solid white;
-	background: orangered;
-	color: white;
-	padding-left: 5px;
-	display: none;
-	margin-top: 20px;
-	opacity: 0.6;
-	width:100%;
-	z-index :2;
-	transition: 0.5s;
-	border-radius: 20px;
-	border-top-left-radius: 0;
-
+html,
+body,
+header,
+.view10 {
+  height: 100%;
 }
 
-/* 2nd canvas 
-#branches{
-	height:100%;
-	z-index: -2;
-	margin-left:-1vw;
-	overflow: hidden;
-	position:absolute;
-  background: gray;
-}
-*/
-/* Middle Out */
-.sliding-middle-out {
-	display: inline-block;
-	position: relative;
-}
-.sliding-middle-out:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 2px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
-}
-.sliding-middle-out:hover:after {
-	width: 100%;
-	background: black;
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view10 {
+    height: 1200px;
+  }
 }
 
-.modal-content{
-	background-color: white !important;
-	color: black;
-	opacity: 1.0;
+@media (max-width: 990px) {
+  .content {
+    padding-top: 15%; 
+  }
 }
+@media (max-width: 770px) {
+  .view10 {
+    height: 1600px; 
+  }
+}
+@media (max-width: 200px) {
+  .view10 {
+    height: 1500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .navfont {
+    font-size: 13px;
+  }
+}
+@media (max-width: 372px) {
+  .navfont {
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 1200px) {
-  .blocks-container {
-    width: 80%;
-    padding: 2%;
-    margin-left: 10%;
+  .ben1  {
+    font-size: 13px;
   }
 }
 @media (max-width: 1200px) {
-  .headlinks {
-    margin-left: 22%;
+  .ben2 {
+    font-size: 13px;
+  }
+}
+.top-nav-collapse {
+  background-color: #39448c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #39448c !important;
+  }
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+/*Sponsors*/
+.t19 {
+    background: url('img/twenty19.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.logo{
+  width: 70%;
+  padding-right: 10%;
+  padding-left: 35%;
+}
+
+
+/*effect-box*/
+a.effect-box:after,
+a.effect-box:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 80px;
+  width: 100%;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  
+}
+
+a.effect-box:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1,0);
+  transform: scale(1,0);
+}
+
+a.effect-box:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+a.effect-box:hover:after,
+a.effect-box:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 577px) {
+  #register-workshops{
+    width: 150px;
+    height: 200px;
+    font-size: 10px;
+    padding: 17px;
+  }
+}
+@media (max-width: 577px) {
+  #register-events{
+    width: 150px;
+    height: 200px;
+    font-size: 10px;
   }
 }
